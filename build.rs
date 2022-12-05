@@ -56,7 +56,7 @@ fn main() {
         println!("cargo:rustc-flags={}", x);
     }
 
-    check_chtype_size(&ncurses_lib);
+    //check_chtype_size(&ncurses_lib);
 
     gen_constants();
     gen_menu_constants();
